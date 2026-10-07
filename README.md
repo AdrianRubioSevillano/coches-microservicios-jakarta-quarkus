@@ -12,7 +12,8 @@ Es el segundo de tres proyectos de estudio de la asignatura, cada uno preparado 
 
 1. [Primer parcial](https://github.com/AdrianRubioSevillano/canciones-api-quarkus): API REST con Quarkus, arquitectura hexagonal y acceso a datos con JDBC.
 2. **Segundo parcial** (este proyecto): microservicios con Jakarta EE y Quarkus, validación de datos y gestión de errores entre servicios.
-3. Examen global (próximamente)
+3. [Examen global](https://github.com/AdrianRubioSevillano/consolas-webapp-jakarta-mvc): aplicación web completa con interfaz gráfica, formularios protegidos y API REST.
+
 
 ## Tecnologías
 

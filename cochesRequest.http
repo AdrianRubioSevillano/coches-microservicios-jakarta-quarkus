@@ -1,0 +1,40 @@
+### COCHES
+GET http://localhost:8080/coches
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/coches/6
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/coches
+Content-Type: application/json
+Accept: application/json
+
+{
+  "marca": "",
+  "modelo": "veiron",
+  "anioLanzamiento": "eeee",
+  "caballos": 5000,
+  "paginaWeb": "http://www.buggatti.com"
+}
+
+###
+
+PUT http://localhost:8080/coches/9
+Content-Type: application/json
+Accept: application/json
+
+{
+  "marca": "Rolls Royce",
+  "modelo": "Classic",
+  "anioLanzamiento": "2010",
+  "caballos": 900,
+  "paginaWeb": "http://www.rollsroyce.com"
+}
+
+
+###
+DELETE http://localhost:8080/coches/3

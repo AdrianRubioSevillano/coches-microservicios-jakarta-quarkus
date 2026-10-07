@@ -1,0 +1,1 @@
+java -jar /opt/payara/micro/payara-micro-7.2026.1.jar --noCluster --port 8080 --deploy ./target/ROOT.war

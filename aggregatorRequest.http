@@ -1,0 +1,42 @@
+### AGGREGATOR
+GET http://localhost:8082/coches
+Content-Type: application/json
+
+###
+
+GET http://localhost:8082/coches/1
+Content-Type: application/json
+
+
+###
+
+POST http://localhost:8082/coches
+Content-Type: application/json
+Accept: application/json
+
+{
+  "marca": "",
+  "modelo": "Urus",
+  "anioLanzamiento": "2025",
+  "caballos": 2000,
+  "paginaWeb": "://www.urus.com"
+}
+
+
+###
+
+PUT http://localhost:8082/coches/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "marca": "Audi",
+  "modelo": "R8 RS",
+  "anioLanzamiento": "2019",
+  "caballos": 500,
+  "paginaWeb": "http://www.audi.com"
+}
+
+###
+
+DELETE http://localhost:8082/coches/1
